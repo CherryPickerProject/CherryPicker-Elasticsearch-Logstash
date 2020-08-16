@@ -37,7 +37,7 @@
 
 - Note: (current hack: delete index bfr running the below to prevent duplication)
 
-  DELETE https://search-cherrypicker-6gbhjlswk2i5q4rrnbgtpk5ify.us-east-1.es.amazonaws.com/<indexname>/
+  DELETE https://search-cherrypicker-6gbhjlswk2i5q4rrnbgtpk5ify.us-east-1.es.amazonaws.com/indexName/
 
 * Details on EC2 setup
 
