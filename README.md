@@ -23,7 +23,13 @@
 
      `export MONGODB_CONNECTION_STRING=<mongo connection string>`
 
-  4) On EC2 execute the following commands
+  4. SSH into EC2
+
+     - Change Directory `cd path/to/pemfile`
+
+       `ssh -i "cherryPicker.pem" ec2-user@ec2-54-172-188-74.compute-1.amazonaws.com`
+
+  5. On EC2 execute the following commands
 
      - Change Directory `cd ~`
 
