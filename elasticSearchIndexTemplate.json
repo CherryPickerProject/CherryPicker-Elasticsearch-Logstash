@@ -2,14 +2,6 @@
   "template": "cherrypicker-template",
   "mappings": {
     "properties": {
-<<<<<<< HEAD
-      "ratings": { "type": "integer" },
-      "link": { "type": "keyword" },
-      "images": { "type": "text" },
-      "title": { "type": "keyword" },
-      "location": { "type": "keyword" },
-      "tags": { "type": "text" },
-=======
       "ratings": {
         "type": "integer"
       },
@@ -28,7 +20,6 @@
       "tags": {
         "type": "text"
       },
->>>>>>> bca323b1786c795471a52cd3bee3bc23460fd56b
       "price": {
         "properties": {
           "dayOfWeek": {
