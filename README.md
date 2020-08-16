@@ -2,26 +2,29 @@
 
 - This project contains the configuration file to sync data from MongoDB Atlas to Elasticsearch cluster hosted on AWS.
 
-1. Please obtain the .env file before running.
-2. If using on a new EC2, Transfer your project folder to ec2 using FileZilla
+- Instructions on running:
 
-   Add your .pem file to fileZilla
+  1. Please obtain the .env file
+  2. If using on a new EC2, Transfer your project folder to ec2 using FileZilla
 
-   setting>connection>SFTP
+     Add your .pem file to fileZilla
 
-   file>SiteManager>(key in your ec2 endpoint)
+     setting>connection>SFTP
 
-3. If using on a new EC2, export the environment variables
+     file>SiteManager>(key in your ec2 endpoint)
 
-`export ELASTIC_SEARCH_ENDPOINT=<endpoint>`
+  3. If using on a new EC2, export the following environment variables
 
-`export ELASTIC_AWS_ACCESS_KEY=<accesskey>`
+     `export ELASTIC_SEARCH_ENDPOINT=<endpoint>`
 
-`export ELASTIC_AWS_SECRET_KEY=<secretkey>`
+     `export ELASTIC_AWS_ACCESS_KEY=<accesskey>`
 
-`export MONGODB_CONNECTION_STRING=<mongo connection string>`
+     `export ELASTIC_AWS_SECRET_KEY=<secretkey>`
 
-- Intended to run the following commands
-- Change Directory `cd ~`
+     `export MONGODB_CONNECTION_STRING=<mongo connection string>`
 
-- Run config file `../../usr/share/logstash/bin/logstash -f ~/CherryPicker-Elasticsearch-Logstash/logstash.conf`
+  4) On EC2 execute the following commands
+
+     - Change Directory `cd ~`
+
+     - Run config file `../../usr/share/logstash/bin/logstash -f ~/CherryPicker-Elasticsearch-Logstash/logstash.conf`
