@@ -2,24 +2,62 @@
   "template": "cherrypicker-template",
   "mappings": {
     "properties": {
+<<<<<<< HEAD
       "ratings": { "type": "integer" },
       "link": { "type": "keyword" },
       "images": { "type": "text" },
       "title": { "type": "keyword" },
       "location": { "type": "keyword" },
       "tags": { "type": "text" },
+=======
+      "ratings": {
+        "type": "integer"
+      },
+      "link": {
+        "type": "text"
+      },
+      "images": {
+        "type": "text"
+      },
+      "title": {
+        "type": "text"
+      },
+      "location": {
+        "type": "text"
+      },
+      "tags": {
+        "type": "text"
+      },
+>>>>>>> bca323b1786c795471a52cd3bee3bc23460fd56b
       "price": {
         "properties": {
-          "dayOfWeek": { "type": "keyword" },
-          "time": { "type": "date_range", "format": "HH:mm" },
-          "pricing": { "type": "text" }
+          "dayOfWeek": {
+            "type": "text"
+          },
+          "time": {
+            "type": "date_range",
+            "format": "HH:mm"
+          },
+          "pricing": {
+            "type": "text"
+          }
         }
       },
-      "pax": { "type": "integer" },
-      "description": { "type": "text" },
-      "facilities": { "type": "text" },
-      "promos": { "type": "text" },
-      "updated_at": { "type": "keyword" }
+      "pax": {
+        "type": "integer"
+      },
+      "description": {
+        "type": "text"
+      },
+      "facilities": {
+        "type": "text"
+      },
+      "promos": {
+        "type": "text"
+      },
+      "updated_at": {
+        "type": "keyword"
+      }
     }
   }
 }
