@@ -35,6 +35,9 @@
 
      - Run config file `../../usr/share/logstash/bin/logstash -f ~/CherryPicker-Elasticsearch-Logstash/logstash.conf`
 
-- Details Ec2-setup
+- Details on EC2 setup
 
   https://medium.com/@ooiyueying/setup-ec2-for-connecting-mongo-atlas-to-aws-elasticsearch-with-logstash-b28babce5c12
+
+- Verify Elasticsearch on AWS can receive query by using postman application to send query in the following manner.
+  ![Architecture](connect-to-aws-elastic.PNG)
