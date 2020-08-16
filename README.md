@@ -34,3 +34,6 @@
      - Change Directory `cd ~`
 
      - Run config file `../../usr/share/logstash/bin/logstash -f ~/CherryPicker-Elasticsearch-Logstash/logstash.conf`
+
+- Verify Elasticsearch on AWS can receive query by using postman application to send query in the following manner.
+![Architecture](connect-to-aws-elastic.PNG)
